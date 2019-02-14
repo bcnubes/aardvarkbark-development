@@ -5,4 +5,6 @@ product_image = "/imgs/colorful-trucks-800-1.jpg"
 tags = []
 
 +++
-Each driver has a different color truck. 
+Each driver has a different color truck.
+
+![](/imgs/colorful-trucks-800-1.jpg)
