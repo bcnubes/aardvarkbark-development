@@ -21,3 +21,5 @@ fields:
   label: Product Image
   config:
     maxSize: '1'
+pages:
+- content/info/color-trucks.md
