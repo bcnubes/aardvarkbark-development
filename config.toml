@@ -1,0 +1,5 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Aardvark Bark"
+SectionPagesMenu = "main"
+summaryLength = 50

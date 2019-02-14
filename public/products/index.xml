@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Aardvark Bark</title>
+    <link>/products/</link>
+    <description>Recent content in Products on Aardvark Bark</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Feb 2019 17:55:36 -0700</lastBuildDate>
+    
+	<atom:link href="/products/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fine Red Bark</title>
+      <link>/products/fine-red-bark/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/products/fine-red-bark/</guid>
+      <description>Fine Red Bark – Fine for the size, red for the color. Made from 100% virgin fir and hemlock tree bark native to the northwest. The bark is screened and processes to be 5/8” minus in size. Fine red bark when installed in landscaping applications has a smooth appearance, fresh bark smell and color.</description>
+    </item>
+    
+    <item>
+      <title>Medium Red Bark</title>
+      <link>/products/medium-red-bark/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/products/medium-red-bark/</guid>
+      <description>Medium for the size, red for the color. Made from 100% virgin fir and hemlock tree bark native to the northwest. The bark is processed to be 5/8” minus in size. Medium bark is the most popular for its wide range of landscaping applications and its price being the most economical.</description>
+    </item>
+    
+    <item>
+      <title>Play Chips</title>
+      <link>/products/play-chips/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/products/play-chips/</guid>
+      <description> Our Premium playground engineered wood fiber wood chips are manufactured and designed specifically for installing under and around Playgrounds and play structures. </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aardvark Bark</title>
+    <link>/</link>
+    <description>Recent content on Aardvark Bark</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Feb 2019 17:55:36 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blower Truck</title>
+      <link>/services/blower-truck/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/services/blower-truck/</guid>
+      <description> These trucks allow more precise placement of products while keeping site disturbance and mess to an absolute minimum. Perfect for residential or commercial beds. </description>
+    </item>
+    
+    <item>
+      <title>Fine Red Bark</title>
+      <link>/products/fine-red-bark/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/products/fine-red-bark/</guid>
+      <description>Fine Red Bark – Fine for the size, red for the color. Made from 100% virgin fir and hemlock tree bark native to the northwest. The bark is screened and processes to be 5/8” minus in size. Fine red bark when installed in landscaping applications has a smooth appearance, fresh bark smell and color.</description>
+    </item>
+    
+    <item>
+      <title>Medium Red Bark</title>
+      <link>/products/medium-red-bark/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/products/medium-red-bark/</guid>
+      <description>Medium for the size, red for the color. Made from 100% virgin fir and hemlock tree bark native to the northwest. The bark is processed to be 5/8” minus in size. Medium bark is the most popular for its wide range of landscaping applications and its price being the most economical.</description>
+    </item>
+    
+    <item>
+      <title>Play Chips</title>
+      <link>/products/play-chips/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/products/play-chips/</guid>
+      <description> Our Premium playground engineered wood fiber wood chips are manufactured and designed specifically for installing under and around Playgrounds and play structures. </description>
+    </item>
+    
+    <item>
+      <title>Slinger Truck</title>
+      <link>/services/slinger-truck/</link>
+      <pubDate>Sat, 23 Feb 2019 17:55:36 -0700</pubDate>
+      
+      <guid>/services/slinger-truck/</guid>
+      <description> These trucks place material long distances other equipment just can’t reach. Great for large open areas like roadways, water retention ponds or steep hillsides. </description>
+    </item>
+    
+    <item>
+      <title>Play Chips</title>
+      <link>/services/play-chips/</link>
+      <pubDate>Tue, 12 Feb 2019 15:10:01 -0800</pubDate>
+      
+      <guid>/services/play-chips/</guid>
+      <description>EWF Premium playground engineered wood fiber wood chips: Our Premium playground engineered wood fiber wood chips are manufactured and designed specifically for installing under and around Playgrounds and play structures, play equipment and playsets of all shapes and sizes. ASTM Certified Engineered Wood Fiber 100 % cedar virgin wood. Our playground chips are considered one of the safest wood products available for playground areas.</description>
+    </item>
+    
+  </channel>
+</rss>

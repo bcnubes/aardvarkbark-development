@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<div class="container-1300 container">
+{{ .Content }}
+    {{ range.Pages }}
+        <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
+        <p>{{ .Summary }}
+          {{ if .Truncated }}
+              <a href="{{ .RelPermalink }}">… Read More</a>
+          {{ end }}
+        </p>
+
+    {{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}
