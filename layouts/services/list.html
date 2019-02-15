@@ -1,17 +1,60 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
 
-<div class="container-1300 container">
-{{ .Content }}
-    {{ range.Pages }}
-        <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
-        <p>{{ .Summary }}
-          {{ if .Truncated }}
-              <a href="{{ .RelPermalink }}">… Read More</a>
-          {{ end }}
-        </p>
+<style>
+  .products-wrap .flex {
+    margin-bottom: 1.5em;
+  }
 
-    {{ end }}
+  .products-wrap h2 {
+    margin-top: .9em;
+  }
+
+  .products-wrap hr {
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
+    background: #ebeae9;
+    border: 0px;
+  }
+
+  .products-thumb {
+    width: 100%;
+    box-shadow: 2px 2px 2px #381313;
+  }
+  .product-info {
+    padding-left: 1em;
+  }
+</style>
+
+<div class="container-1300 centered products-wrap">
+  <h1>Products</h1>
+
+  {{ .Content }}
+  {{ range.Pages }}
+
+    <a href="{{ .RelPermalink }}">
+      <h2>{{ .Title }}</h2>
+    </a>
+    <div class="flex two grow">
+      <div class="full half-600 fourth-1000">
+        <a href="{{ .RelPermalink }}">
+          <img class="products-thumb" src="{{ .Site.BaseURL }}imgs/{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        </a>
+      </div>
+      <div class="full half-600 three-fourth-1000">
+        <div class="product-info">
+          <p>{{ .Summary }}
+            {{ if .Truncated }}
+              <a href="{{ .RelPermalink }}">… Read More</a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+  {{ end }}
 
 </div>
 
