@@ -7,6 +7,12 @@ fields:
   name: name
   label: Name
   config:
+    required: false
+  hidden: true
+- type: text
+  name: title
+  label: Title
+  config:
     required: true
 - type: datetime
   name: date
