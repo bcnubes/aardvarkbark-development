@@ -2907,13 +2907,15 @@ footer small{color: #ffffff88}
   padding: 0 10px;
 }
 
+
 #primary_nav_wrap ul li {
   position: relative;
   float: left;
   margin: 0;
-  padding: 0;
+  padding: 0 4px;
   z-index: 6;
 }
+
 
 #primary_nav_wrap .menu-right {
   left: -160px;
