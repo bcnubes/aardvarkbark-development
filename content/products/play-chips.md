@@ -1,8 +1,8 @@
 ---
-title: 'Play Chips'
-date: 2019-02-23T17:55:36-07:00
-draft: false
-thumbnail: 'products-wood-chips.jpg'
+title: Play Chips
+date: 2019-02-24 00:55:36 +0000
+thumbnail: "/imgs/products-wood-chips.jpg"
+
 ---
 Our Premium playground engineered wood fiber wood chips are manufactured and designed specifically for installing under and around Playgrounds and play structures.
 ---
