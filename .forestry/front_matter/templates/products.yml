@@ -21,6 +21,5 @@ fields:
   name: thumbnail
   label: Thumbnail
 pages:
-- content/products/my-new-motorcycle.md
 - content/products/fine-dark-bark.md
 - content/products/medium-red-bark.md
