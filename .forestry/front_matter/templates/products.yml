@@ -14,3 +14,5 @@ fields:
 - type: file
   name: thumbnail
   label: Thumbnail
+pages:
+- content/products/fine-dark-bark.md
