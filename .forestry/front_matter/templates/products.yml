@@ -1,0 +1,16 @@
+---
+label: Products
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: name
+  label: Name
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+- type: file
+  name: thumbnail
+  label: Thumbnail
