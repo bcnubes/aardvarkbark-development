@@ -8,9 +8,13 @@ fields:
   label: Name
   config:
     required: true
+  description: lower-case-file-name-with-hyphens
 - type: text
-  name: title
+  name: Title
   label: Title
+  description: Human Readable Title
+  config:
+    required: true
 - type: datetime
   label: Date
   name: date
