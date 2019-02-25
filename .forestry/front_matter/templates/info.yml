@@ -8,6 +8,9 @@ fields:
   label: Name
   config:
     required: true
+- type: text
+  name: title
+  label: Title
 - type: datetime
   label: Date
   name: date
