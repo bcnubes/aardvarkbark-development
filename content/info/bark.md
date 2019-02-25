@@ -1,8 +1,11 @@
 ---
-title: "Bark"
-date: 2019-02-23T17:55:36-07:00
-draft: true
-thumbnail: "products-fine-red-bark.jpg"
-tags: ["product"]
+title: Bark
+date: 2019-02-24 00:55:36 +0000
+thumbnail: products-fine-red-bark.jpg
+tags:
+- product
+name: bark
+Title: Bark
+
 ---
-Bark Bark Bark
+Bark is all narural.
