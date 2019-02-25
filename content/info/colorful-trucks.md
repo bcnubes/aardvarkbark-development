@@ -6,4 +6,4 @@ tags = []
 thumbnail = "/imgs/colorful-trucks-800-1.jpg"
 
 +++
-Our trucks are colorful because...
+Our trucks are colorful because of..
