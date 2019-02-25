@@ -21,3 +21,5 @@ fields:
   label: thumbnail
   config:
     maxSize: '1'
+pages:
+- content/info/uniforms.md
