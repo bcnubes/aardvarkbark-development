@@ -21,5 +21,5 @@ fields:
   name: thumbnail
   label: Thumbnail
 pages:
-- content/products/fine-dark-bark.md
 - content/products/medium-red-bark.md
+- content/products/fine-dark-bark.md
