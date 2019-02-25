@@ -1,8 +1,11 @@
 ---
-title: "Compost"
-date: 2019-02-23T17:55:36-07:00
-draft: true
-thumbnail: "products-fine-red-bark.jpg"
-tags: ["product"]
+title: Compost
+date: 2019-02-24 00:55:36 +0000
+thumbnail: products-fine-red-bark.jpg
+tags:
+- product
+name: compost
+Title: Compost
+
 ---
-Bark Bark Bark
+By definition means organic matter that has been decomposed in a process. The source material includes anything removed from an existing landscape put in a curbside yard waste bin and received at the composting facilities from landscapers and homeowners. Such as but not limited to grass clipping, leaves, branches, bushes, trees, ivy, berries, weeds, stumps, Christmas trees etc. In the pacific northwest we love this word and the idea of doing it, Our communities go through great efforts to do this. The landscape industry is a predominant consumer of composted products, used to amend and mix in soils, gardens and spread in landscaping beds Separately companies will add a variety of items to compost such as fish guts, food waste or cow and chicken manure. Compost typically, unless specified does not contain these items.
