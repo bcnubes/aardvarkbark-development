@@ -54,7 +54,7 @@
       <a href="{{ .RelPermalink }}">
       <div class="aspect aspect--16x9">
         <div class="aspect__inner">
-          <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+          <img src="{{ .Site.Params.cloudinary_url }}{{ .Site.Params.aspect_400 }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
         </div>
       </div>
       <figcaption>{{ .Title }}</figcaption>
