@@ -1,0 +1,4 @@
+---
+title: "Calculator"
+layout: "calc"
+---
