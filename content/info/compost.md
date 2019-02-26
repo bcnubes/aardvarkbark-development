@@ -1,7 +1,7 @@
 ---
 title: Compost
 date: 2019-02-24 00:55:36 +0000
-thumbnail: products-fine-red-bark.jpg
+thumbnail: https://res.cloudinary.com/aardvarkbark/image/upload/v1551198026/products-fine-dark-bark.jpg
 tags:
 - product
 name: compost
