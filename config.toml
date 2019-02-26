@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "Aardvark Bark"
 SectionPagesMenu = "main"
 summaryLength = 50
+cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
+thumb_med = "/c_limit,h_200,q_70,w_300/"
