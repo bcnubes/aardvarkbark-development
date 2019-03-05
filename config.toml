@@ -2,13 +2,12 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Aardvark Bark"
 SectionPagesMenu = "main"
-[menu]
 
-  [[menu.main]]
-    identifier = "calculator"
-    name = "Calculator"
-    url = "/calculator/"
-    weight = 100
+[[menu.main]]
+  identifier = "calculator"
+  name = "Calculator"
+  url = "/calculator/"
+  weight = 800
     
 summaryLength = 50
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
