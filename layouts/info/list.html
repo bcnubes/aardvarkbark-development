@@ -38,7 +38,7 @@
 <h2>Encyclopedia</h2>
 <small>categories:</small>
 {{ range $.Site.Taxonomies.tags.ByCount }}
-{{ if gt .Count 1 }}
+{{ if gt .Count 0 }}
 
     <a class="chip" href="/tags/{{ .Name }}" class="shyButton">{{ .Name }}<small>&nbsp;({{ .Count }})</small></a>
 
