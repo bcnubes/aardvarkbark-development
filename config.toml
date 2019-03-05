@@ -6,9 +6,9 @@ SectionPagesMenu = "main"
 
   [[menu.main]]
     identifier = "calculator"
-    name = "calculator"
+    name = "Calculator"
     url = "/calculator/"
-    weight = -110
+    weight = 100
     
 summaryLength = 50
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
