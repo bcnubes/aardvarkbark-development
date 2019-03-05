@@ -2,6 +2,14 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Aardvark Bark"
 SectionPagesMenu = "main"
+[menu]
+
+  [[menu.main]]
+    identifier = "calculator"
+    name = "calculator"
+    url = "/calculator/"
+    weight = -110
+    
 summaryLength = 50
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
 thumb_med = "/t_thumb_med/"
