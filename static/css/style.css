@@ -2837,6 +2837,26 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
 .centered{margin: 0 auto;}
 .responsive{width:100%}
 
+.chip {
+  align-items: center;
+  background: #eef0f3;
+  border-radius: 5rem;
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  -ms-flex-align: center;
+  font-size: 90%;
+  height: 1.2rem;
+  line-height: .8rem;
+  margin: .1rem;
+  max-width: 320px;
+  overflow: hidden;
+  padding: .2rem .4rem;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 /* Social and NEwsletter */
 .social-bar{background: #FF312E;height:0px;margin-bottom: 4em;text-align:center;}
 .social-icon{max-width:80px;height: 72px;padding:6px;background: #ffffff; border: 6px solid #FF312E; border-radius: 100px;transform: translateY(-50%);}
