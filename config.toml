@@ -2,6 +2,33 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Aardvark Bark"
 SectionPagesMenu = "main"
+
+[[menu.mainnav]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.mainnav]]
+  identifier = "products"
+  name = "Products"
+  url = "/products/"
+  weight = 100
+  [[menu.mainnav]]
+  identifier = "services"
+  name = "Services"
+  url = "/services/"
+  weight = 200
+[[menu.mainnav]]
+  identifier = "info"
+  name = "More Info"
+  url = "/info/"
+  weight = 300
+[[menu.mainnav]]
+  identifier = "calculator"
+  name = "Calculator"
+  url = "/calculator/"
+  weight = 400
+    
 summaryLength = 50
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
 thumb_med = "/t_thumb_med/"

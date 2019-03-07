@@ -1,0 +1,87 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+
+<div class="container-1300 centered">
+  <h1>{{ .Title }}</h1>
+
+  {{ partial "aardvark-advantage.html" . }}
+  <hr>
+  {{ .Content }}
+
+  <style>
+
+  figure{
+    margin: .5em;
+  }
+  .chip {
+    align-items: center;
+    background: #eef0f3;
+    border-radius: 5rem;
+    display: inline-flex;
+    display: -ms-inline-flexbox;
+    -ms-flex-align: center;
+    font-size: 90%;
+    height: 1.2rem;
+    line-height: .8rem;
+    margin: .1rem;
+    max-width: 320px;
+    overflow: hidden;
+    padding: .2rem .4rem;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+</style>
+
+<h2>Encyclopedia</h2>
+<small>categories:</small>
+{{ range $.Site.Taxonomies.tags.ByCount }}
+{{ if gt .Count 0 }}
+
+    <a class="chip" href="/tags/{{ .Name }}" class="shyButton">{{ .Name }}<small>&nbsp;({{ .Count }})</small></a>
+
+{{ end }}
+{{end}}
+
+
+  <div id="grid" class="flex two three-900 four-1200">
+  {{ range.Pages }}
+
+  <div class="picture-item__inner">
+    <figure class="" >
+      <a href="{{ .RelPermalink }}">
+      <div class="aspect aspect--16x9">
+        <div class="aspect__inner">
+          <img src="{{ .Site.Params.cloudinary_url }}{{ .Site.Params.aspect_400 }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        </div>
+      </div>
+      <figcaption>{{ .Title }}</figcaption>
+      </a>
+    </figure>
+  </div>
+
+  {{ end }}
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
+
+
+
+
+
+
+
+
+      <!-- <div class="filters-group full half-500 fourth-800">
+                <label for="filters-search-input" class="filter-label">Search</label>
+                <input class="textfield filter__search js-shuffle-search" type="search" id="filters-search-input">
+              </div>
+      <div class="btn-group filter-options">
+                  <button class="btn btn--primary" data-group="product">Product</button>
+                  <button class="btn btn--primary" data-group="service">Service</button>
+                  <button class="btn btn--primary" data-group="crew">Crew</button>
+                  <button class="btn btn--primary" data-group="equipment">Equipment</button>
+      </div> -->
