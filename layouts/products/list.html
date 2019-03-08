@@ -27,7 +27,7 @@
   }
 </style>
 
-<div class="container-1300 centered products-wrap">
+<div class="container-1200 centered products-wrap">
   <h1>{{ .Title }}</h1>
 
   {{ .Content }}
@@ -37,12 +37,12 @@
       <h2>{{ .Title }}</h2>
     </a>
     <div class="flex two grow">
-      <div class="full half-600 fourth-1000">
+      <div class="full half-600 third-900 fourth-1200">
         <a href="{{ .RelPermalink }}">
           <img class="products-thumb" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
         </a>
       </div>
-      <div class="full half-600 three-fourth-1000">
+      <div class="full half-600 two-third-900 three-fourth-1200">
         <div class="product-info">
           <p>{{ .Summary }}
             {{ if .Truncated }}
