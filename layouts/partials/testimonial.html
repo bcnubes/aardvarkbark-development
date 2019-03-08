@@ -1,101 +1,48 @@
-<style>/*
-Speech Bubbles
-Usage: Apply a class of .speech-bubble and .speech-bubble-DIRECTION
-&lt;div class="speech-bubble speech-bubble-top"&gt;Hi there&lt;/div&gt;
-*/
-
-.speech-bubble
-{
-position: relative;
-display: table;
-padding: 1em 2em;
-background-color: #292929;
-width: 70%;
-color: white;
-text-align: center;
-border-radius: 10px;
-
-font-family: sans-serif;
-}
-.speech-bubble p
-{
-display: table-cell;
-vertical-align: middle;
-}
-
-.speech-bubble:after
-{
-content: '';
-position: absolute;
-
-width: 0;
-height: 0;
-
-border: 15px solid;
-}
-
-/* Position the Arrow */
-
-.speech-bubble-top:after
-{
-border-bottom-color: #292929;
-
-left: 50%;
-bottom: 100%;
-margin-left: -15px;
-}
-.speech-bubble-right:after
-{
-border-left-color: #292929;
-
-left: 100%;
-top: 50%;
-margin-top: -15px;
-}
-
-.speech-bubble-bottom:after
-{
-border-top-color: #292929;
-
-top: 100%;
-left: 50%;
-margin-left: -15px;
-}
-
-.speech-bubble-left {margin-left: 2em;}
-.speech-bubble-left:after
-{
-border-right-color: #292929;
-
-top: 50%;
-right: 100%;
-margin-top: -15px;
-}
+<style>
 .testimonial {
+  position: relative;
+  width: 80%;
+  padding: .5em;
+  border: 1px dashed #ddd;
+  border-radius: .5em;
+  margin: auto;
+  margin-bottom: .5em;
+  background: #f8eeef;
+  box-shadow: 1px 1px 2px #231f1e;
+  }
+  .testimonial p {
+    margin-left: 64px;
+    margin-bottom: .5em;
+    padding-left: 12px;
+    border-left: 1px solid #d2b8bb;
+    font-family: sans-serif;
+  }
+  .testimonial::before {
+    content: url('imgs/quote-icon.png');
+    width: 24px;
+    color: #aaa;
+    position: absolute;
+    top: .5em;
+    left: .5em;
+  }
+.testimonial span {
+  display: inline-block;
   width: 100%;
-  height: 100%;
   text-align: right;
-  padding-right: 2em;
-  display: table;
 }
-.testimonial div {
-  display: table-cell;
-  vertical-align: middle;
+.testimonial span::before {
+  content: "-";
+}
+.testimonial small{
+  padding-left: .5em;
 }
 </style>
 
-<div class="flex one two-800">
-  <div>
-      <div class="testimonial">
-        <div>
-        <span>Kim M.</span><br>
-        <small>Seattle, WA</small>
-        </div>
-      </div>
-  </div>
-  <div>
-    <div class="speech-bubble speech-bubble-left">
-      <p>They did an AMAZING job! I am really happy with their professionalism, politeness, communication, attention to detail and the quality of the product! Not to mention they were able to schedule me within a week. Highly recommended!</p>
-    </div>
-  </div>
+<div class="testimonial">
+  <p>They did an AMAZING job! I am really happy with their professionalism, politeness, communication, attention to detail and the quality of the product! Not to mention they were able to schedule me within a week. Highly recommended!</p>
+  <span>Kim M.<small>Seattle, WA</small></span>
+</div>
+<div class="testimonial">
+  <p>This is an amazing company! Super professional from the office staff to the staff delivering the bark to the daycare. Polite, courteous and very efficient. The daycare playground looks amazing. They quality of the playchips is great and we will use them again! Thank you, Aardvark!</p>
+  <span>Regina P.<small>Graham, WA</small></span>
 </div>
