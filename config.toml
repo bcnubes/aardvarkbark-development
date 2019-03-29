@@ -28,7 +28,12 @@ SectionPagesMenu = "main"
   name = "Calculator"
   url = "/calculator/"
   weight = 400
-    
+[[menu.mainnav]]
+  identifier = "map"
+  name = "Map"
+  url = "/map/"
+  weight = 400
+
 summaryLength = 50
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
 thumb_med = "/t_thumb_med/"
