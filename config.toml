@@ -32,7 +32,7 @@ SectionPagesMenu = "main"
   identifier = "map"
   name = "Map"
   url = "/map/"
-  weight = 400
+  weight = 500
 
 summaryLength = 50
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
