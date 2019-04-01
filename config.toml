@@ -2,13 +2,13 @@ SectionPagesMenu = "main"
 baseURL = "/"
 languageCode = "en-us"
 title = "Aardvark Bark"
-[[menu.mainnav]]
 aspect_400 = "/ar_16:9,c_crop,w_400/"
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
-identifier = "map"
-name = "Map"
 summaryLength = 50
 thumb_med = "/t_thumb_med/"
+[[menu.mainnav]]
+identifier = "map"
+name = "Map"
 url = "/map/"
 weight = 6
 [[menu.mainnav]]
