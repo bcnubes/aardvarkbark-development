@@ -2,7 +2,6 @@ SectionPagesMenu = "main"
 baseURL = "/"
 languageCode = "en-us"
 title = "Aardvark Bark"
-SectionPagesMenu = "main"
 aspect_400 = "/ar_16:9,c_crop,w_400/"
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
 summaryLength = 50
