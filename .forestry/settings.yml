@@ -26,10 +26,10 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: ''
-public_path: ''
-front_matter_path: https://res.cloudinary.com/aardvarkbark/image/upload
-use_front_matter_path: false
+upload_dir: static/imgs
+public_path: "/static/imgs"
+front_matter_path: ''
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
