@@ -8,6 +8,13 @@
 
 <div>{{ .Content }}</div>
 
+{{ if .Params "blower_truck" }}
+  blower truck
+{{ end }}
+{{ if .Params "slinger_truck" }}
+  sligner truck
+{{ end }}
 </div>
+
 
 {{ partial "footer.html" . }}
