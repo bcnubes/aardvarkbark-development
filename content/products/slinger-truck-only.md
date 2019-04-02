@@ -7,3 +7,4 @@ thumbnail = ""
 title = "Slinger Truck Only"
 
 +++
+This product is only for slinger trucks.
