@@ -7,6 +7,19 @@
 <h1>{{ .Title }}</h1>
 <div>{{ .Content }}</div>
 
+{{ $related := .Site.RegularPages.Related . }}
+{{ with $related }}
+<h3>{{ $.Page.Title }} Products</h3>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}
+
+
+
+
 </div>
 
 {{ partial "footer.html" . }}

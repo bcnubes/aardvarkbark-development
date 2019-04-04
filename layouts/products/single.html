@@ -7,12 +7,15 @@
 <h1>{{ .Title }}</h1>
 
 <div>{{ .Content }}</div>
-
-{{ if .Params "blower_truck" }}
-  blower truck
-{{ end }}
-{{ if .Params "slinger_truck" }}
-  sligner truck
+{{ if .Keywords }}
+<hr>
+  <span>Can be used in: </span>
+  {{ if in .Keywords "blower" }}
+  <a href="/services/blower-truck/">Blower Truck</a>
+  {{ end }}
+  {{ if in .Keywords "slinger" }}
+    <a href="/services/slinger-truck/">Slinger Truck</a>
+  {{ end }}
 {{ end }}
 </div>
 

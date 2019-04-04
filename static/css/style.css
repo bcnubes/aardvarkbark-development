@@ -27,6 +27,7 @@ a {
   background: transparent
 }
 a:active, a:hover {
+  color: #d1211d;
   outline: 0
 }
 a.active{border-bottom:2px solid #ff312e;}
@@ -151,7 +152,7 @@ body {
   color: #1a140f;
   font-size: 18px;
   line-height: 1.5;
-  background: #fff
+  background: #fbf7f0;
 }
 main {
   display: block;
@@ -165,7 +166,7 @@ li {
   margin: 0 0 .3em
 }
 a {
-  color: #0074d9;
+  color: #9c1b18;
   text-decoration: none;
   box-shadow: none;
   transition: all 0.3s
@@ -227,7 +228,7 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
   background: #ff4136
 }
 .primary-color{background: #9E1916;}
-.alt-color{background: #3A405A;}
+.alt-color{background: #8c0f0f;}
 .pop-color{background: #FF312E;}
 .pseudo.label, .pseudo[data-tooltip]:after, button.pseudo, .pseudo.button, .pseudo[type=submit], .pseudo.dropimage {
   background-color: transparent;
@@ -3154,10 +3155,8 @@ footer small{color: #ffffff88}
   background: currentColor;
   content: "";
   display: block;
-  height: .1rem;
+  height: .8rem;
   position: absolute;
   top: .5rem;
   width: 100%;
 }
-
-
