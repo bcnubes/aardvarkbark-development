@@ -16,4 +16,5 @@ fields:
   label: Keywords
   description: Similar keywords will show similar pages.
 pages:
+- content/services/slinger-truck.md
 - content/services/blower-truck.md
