@@ -15,3 +15,5 @@ fields:
   name: keywords
   label: Keywords
   description: Similar keywords will show similar pages.
+pages:
+- content/services/blower-truck.md
