@@ -28,6 +28,7 @@ fields:
   label: Slinger Truck?
   description: Can this product be used in a slinger truck?
 pages:
+- content/products/blown-dirt.md
 - content/products/slinger-truck-only.md
 - content/products/medium-red-bark.md
 - content/products/fine-dark-bark.md
