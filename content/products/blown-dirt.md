@@ -1,8 +1,7 @@
 +++
-blower_truck = true
+keywords = ["blower"]
 date = "2019-04-02T07:00:00+00:00"
 name = ""
-slinger_truck = false
 thumbnail = "/imgs/products-fine-dark-bark.jpg"
 title = "Blown Dirt"
 
