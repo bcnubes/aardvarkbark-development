@@ -11,3 +11,11 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
+- type: tag_list
+  name: keywords
+  label: Keywords
+  description: Similar keywords will show similar pages.
+pages:
+- content/services/play-chips.md
+- content/services/slinger-truck.md
+- content/services/blower-truck.md

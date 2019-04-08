@@ -3,12 +3,6 @@ label: Products
 hide_body: false
 fields:
 - type: text
-  name: name
-  label: Name
-  config:
-    required: false
-  hidden: true
-- type: text
   name: title
   label: Title
   config:
@@ -19,16 +13,12 @@ fields:
 - type: file
   name: thumbnail
   label: Thumbnail
-- type: boolean
-  name: blower_truck
-  label: Blower Truck?
-  description: Can this product be used in a blower truck?
-- type: boolean
-  name: slinger_truck
-  label: Slinger Truck?
-  description: Can this product be used in a slinger truck?
+- type: tag_list
+  name: keywords
+  label: Keywords
+  description: For products, enter "slinger" and/or "blower" to relate
 pages:
+- content/products/medium-red-bark.md
 - content/products/blown-dirt.md
 - content/products/slinger-truck-only.md
-- content/products/medium-red-bark.md
 - content/products/fine-dark-bark.md
