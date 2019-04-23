@@ -9,19 +9,25 @@
 
 {{ $related := .Site.RegularPages.Related . }}
 {{ with $related }}
+<hr>
 <h3>{{ $.Page.Title }} Products</h3>
-<ul>
+<div id="grid" class="flex two three-900 four-1200">
 	{{ range . }}
-	<li><a href="{{ .RelPermalink }}" title="{{ .Title }}">
-		<img src="{{.Thumbnail}}" alt="{{ .Title }}"/><br>
-		{{ .Title }}
-	</a></li>
+  <div class="picture-item__inner">
+    <figure class="">
+      <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+      <div class="aspect aspect--16x9">
+        <div class="aspect__inner">
+          <img src="{{ .Params.Thumbnail }}" alt="{{ .Title }}">
+        </div>
+      </div>
+      <figcaption>{{ .Title }}</figcaption>
+      </a>
+    </figure>
+  </div>
 	{{ end }}
-</ul>
+  </div>
 {{ end }}
-
-
-
 
 </div>
 
