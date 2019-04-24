@@ -2823,7 +2823,7 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
     padding-bottom: 100%;
   }
   figcaption{
-    background: #3c0606;
+    background: #650c0a;
     color: white;
     text-align: center;
   }
@@ -2869,7 +2869,7 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
 }
 
 .header-phone{color:#fff;font-size: 2em;}
-.header-phone:hover{text-shadow: 0 0 .25em #fff;}
+.header-phone:hover{text-shadow: 0 0 .25em #fff;color: #fff}
 /* .logo-wrap{
   background: -webkit-radial-gradient(50% 50%, circle, #c32622 35%, #9e1916 70%);
   background: -moz-radial-gradient(50% 50%, circle, #c32622 35%, #9e1916 70%);
@@ -2881,7 +2881,7 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
   max-width: 450px;
 }
 .header-text{color:#ffffff;text-align: right;}
-.site-title{font-size: 2em;padding-bottom: 0px;font-variant-caps: small-caps;}
+.site-title{font-size: 2em;padding: 0px;font-variant-caps: small-caps;text-shadow: 2px 2px #750e0b;}
 .site-subtitle{font-size:1em;padding-top:0px;}
 .tagline{font-style: italic;color: #ffffffcc;text-shadow: -1px -1px 3px #FF312E;}
 
@@ -2893,9 +2893,6 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
 
   .header-text{text-align: center;}
 }
-
-
-
 
 footer {
   background: #9e1916;
@@ -2914,7 +2911,6 @@ footer small{color: #ffffff88}
   height: 100%;
 }
 .menu-expanded{
-
   height: 100%;
   padding: 0px 1em;
 }
@@ -3136,7 +3132,7 @@ footer small{color: #ffffff88}
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  width: 10rem;
+  width: 12rem;
   z-index: 100;
 }
 
@@ -3147,7 +3143,7 @@ footer small{color: #ffffff88}
   flex: 1 0 auto;
   height: 1.6rem;
   margin: .2rem;
-  max-width: 2.5rem;
+  max-width: 3rem;
   position: relative;
 }
 
@@ -3155,7 +3151,7 @@ footer small{color: #ffffff88}
   background: currentColor;
   content: "";
   display: block;
-  height: .8rem;
+  height: 1.2rem;
   position: absolute;
   top: .5rem;
   width: 100%;
