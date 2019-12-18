@@ -19,6 +19,6 @@ fields:
   description: For products, enter "slinger" and/or "blower" to relate
 pages:
 - content/products/blown-dirt.md
+- content/products/fine-dark-bark.md
 - content/products/medium-red-bark.md
 - content/products/slinger-truck-only.md
-- content/products/fine-dark-bark.md

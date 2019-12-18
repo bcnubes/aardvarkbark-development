@@ -1,9 +1,9 @@
 +++
+date = 2019-04-02T07:00:00Z
 keywords = ["blower"]
-date = "2019-04-02T07:00:00+00:00"
 name = ""
 thumbnail = "/imgs/products-fine-dark-bark.jpg"
-title = "Blown Dirt"
+title = "Roof Top Soil Mix"
 
 +++
-This dirt can be blown (by a truck).
+This material can be blown up several stories high and spread on roof tops for roof top gardens.
