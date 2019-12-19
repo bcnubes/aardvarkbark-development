@@ -2,7 +2,7 @@
 date = ""
 draft = true
 keywords = []
-thumbnail = ""
+thumbnail = "/imgs/Wood Chip Mulch.jpg"
 title = "Wood Chip Mulch"
 
 +++
