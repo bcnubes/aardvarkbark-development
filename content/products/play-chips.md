@@ -1,5 +1,5 @@
 ---
-title: Play Chips
+title: FiberPC - Play Chips
 date: 2019-02-24T00:55:36.000+00:00
 thumbnail: "/imgs/products-wood-chips.jpg"
 
