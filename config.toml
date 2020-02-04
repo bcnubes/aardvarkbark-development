@@ -1,11 +1,16 @@
 SectionPagesMenu = "main"
-baseURL = "/"
-languageCode = "en-us"
-title = "Aardvark Bark"
 aspect_400 = "/ar_16:9,c_crop,w_400/"
+baseURL = "/"
 cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
+languageCode = "en-us"
 summaryLength = 50
 thumb_med = "/t_thumb_med/"
+title = "Aardvark Bark"
+[[menu.mainnav]]
+identifier = "products"
+name = "Products"
+url = "/products/"
+weight = 1
 [[menu.mainnav]]
 identifier = "map"
 name = "Map"
@@ -27,13 +32,7 @@ name = "Services"
 url = "/services/"
 weight = 3
 [[menu.mainnav]]
-identifier = "products"
-name = "Products"
-url = "/products/"
-weight = 2
-[[menu.mainnav]]
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 1
-
+weight = 2
