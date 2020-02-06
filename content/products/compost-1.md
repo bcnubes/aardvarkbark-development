@@ -1,6 +1,5 @@
 +++
 date = 2019-02-15T16:00:02Z
-draft = true
 keywords = ["Blower Truck", "slinger"]
 thumbnail = "https://res.cloudinary.com/aardvarkbark/image/upload/v1551198026/products-fine-dark-bark.jpg"
 title = "Pea Gravel "
