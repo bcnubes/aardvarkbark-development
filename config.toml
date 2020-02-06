@@ -10,7 +10,7 @@ title = "Aardvark Bark"
 identifier = "products"
 name = "Products"
 url = "/products/"
-weight = 1
+weight = 2
 [[menu.mainnav]]
 identifier = "map"
 name = "Map"
@@ -35,4 +35,4 @@ weight = 3
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 2
+weight = 1
