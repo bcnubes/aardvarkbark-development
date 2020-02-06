@@ -5,4 +5,6 @@ thumbnail: "/imgs/cedar-playground-playchip-500.jpg"
 keywords: []
 
 ---
-## Premium playground engineered wood fiber wood chips: Our Premium playground engineered wood fiber wood chips are manufactured and designed specifically for installing under and around Playgrounds and play structures, play equipment and playsets of all shapes and sizes. ASTM Certified Engineered Wood Fiber 100 % cedar virgin wood. Our playground chips are considered one of the safest wood products available for playground areas. EWF Premium playground engineered wood fiber wood chips when installed are accessibleto people in wheelchairs (ADA compliant). The size of the pieces have been screened and processes to be 1 1/2” minus.
+## Premium engineered wood fiber playground chips: FiberPC our play ground surfacing chips are manufactured and designed specifically for installing under and around Playgrounds and play structures, play equipment and play sets of all shapes and sizes.
+
+## FiberPC is an ASTM certified protective surfacing loose fill material. It is a manufactured engineered wood fiber comprised of softwood, consisting of random sized wood fibers the majority of which do not exceed 1.5" in length and containing 10% to 20% fines to aid in compaction. FiberPC when installed are accessible to people in wheelchairs (ADA compliant). 
