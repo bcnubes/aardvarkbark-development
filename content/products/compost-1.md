@@ -6,4 +6,4 @@ thumbnail = "https://res.cloudinary.com/aardvarkbark/image/upload/v1551198026/pr
 title = "Pea Gravel "
 
 +++
-## Made from 100% recycled yard waste. The recycled yard waste is ground up, mixed and piled in rows to cook in a process called composting.  After cooking/composting the material pieces are screened and processes to be 5/8” minus. This material is commonly used as a soil amendment or topdressing.
+## **Pea gravel** is small rounded stones. Each stone is about the size of a **pea**. Ranging in size from one-eighth of an inch to three-eighths of an inch in diameter, **Pea gravel** is available in various colors such as white, buff, gray, and brown.
