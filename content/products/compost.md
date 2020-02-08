@@ -1,7 +1,7 @@
 ---
 title: Compost
 date: 2019-02-15T16:00:02.000+00:00
-thumbnail: https://res.cloudinary.com/aardvarkbark/image/upload/v1551198026/products-fine-dark-bark.jpg
+thumbnail: "/imgs/products-fine-dark-bark.jpg"
 keywords:
 - Blower Truck
 - slinger
