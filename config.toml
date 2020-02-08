@@ -1,11 +1,9 @@
 SectionPagesMenu = "main"
-aspect_400 = "/ar_16:9,c_crop,w_400/"
 baseURL = "/"
-cloudinary_url = "https://res.cloudinary.com/aardvarkbark/image/upload"
 languageCode = "en-us"
-summaryLength = 50
-thumb_med = "/t_thumb_med/"
 title = "Aardvark Bark"
+assetDir = "static"
+summaryLength = 50
 [[menu.mainnav]]
 identifier = "products"
 name = "Products"
