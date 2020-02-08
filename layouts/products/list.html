@@ -20,7 +20,6 @@
 
   .products-thumb {
     width: 100%;
-    box-shadow: 2px 2px 2px #381313;
   }
   .product-info {
     padding-left: 1em;
@@ -38,9 +37,13 @@
     </a>
     <div class="flex two grow">
       <div class="full half-600 third-900 fourth-1200">
-        <a href="{{ .RelPermalink }}">
-          <img class="products-thumb" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-        </a>
+        <div class="aspect aspect--4x3">
+          <div class="aspect__inner">
+            <a href="{{ .RelPermalink }}">
+              <img class="products-thumb" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+            </a>
+          </div>
+        </div>
       </div>
       <div class="full half-600 two-third-900 three-fourth-1200">
         <div class="product-info">
