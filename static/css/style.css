@@ -257,7 +257,7 @@ button.pseudo:hover, .pseudo.button:hover, .pseudo[type=submit]:hover, .pseudo.d
   box-shadow: inset 0 0 0 99em rgba(17, 17, 17, 0.1)
 }
 button.active, .active.button, .active[type=submit], .active.dropimage, button:active, .button:active, [type=submit]:active, .dropimage:active, button.pseudo:active, .pseudo.button:active, .pseudo[type=submit]:active, .pseudo.dropimage:active {
-  box-shadow: inset 0 0 0 99em rgba(17, 17, 17, 0.2)
+  box-shadow: inset 0 0 0 99em rgba(82, 23, 24, 0.85)
 }
 button[disabled], [disabled].button, [disabled][type=submit], [disabled].dropimage {
   cursor: default;
@@ -2840,7 +2840,8 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
 
 .chip {
   align-items: center;
-  background: #eef0f3;
+  background: #3d3131;
+  color: #dcab7d;
   border-radius: 5rem;
   display: inline-flex;
   display: -ms-inline-flexbox;
@@ -2851,7 +2852,7 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
   margin: .1rem;
   max-width: 320px;
   overflow: hidden;
-  padding: .2rem .4rem;
+  padding: .8em;
   text-decoration: none;
   text-overflow: ellipsis;
   vertical-align: middle;
