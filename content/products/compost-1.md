@@ -1,7 +1,7 @@
 +++
 date = 2019-02-15T16:00:02Z
 keywords = ["Blower Truck", "slinger"]
-thumbnail = "pea gravel.jpg"
+thumbnail = ""
 title = "Pea Gravel "
 
 +++
