@@ -4,7 +4,7 @@ draft = true
 keywords = ["blower"]
 name = ""
 thumbnail = "/imgs/pea gravel.jpg"
-title = "Pea Gravel "
+title = "50/50 Soil Mix"
 
 +++
-### **Pea gravel** is small rounded stones. Each stone is about the size of a pea. Ranging in size from one-eighth of an inch to three-eighths of an inch in diameter, Pea gravel is available in various colors such as white, buff, gray, and brown.
+##### Our 50/50 Soil mix is a blend of washed sand and organic compost. This soil is good in applications where the ground will be wet or saturated with water. This product is made to order upon request. 
