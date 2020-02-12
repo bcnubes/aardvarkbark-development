@@ -6,4 +6,6 @@ keywords:
 - slinger
 
 ---
-## Slinger Truck: A truck with a hopper and boom mounted on a truck chassis that is used to spread a variety of materials with a conveyor belt . Also known as a CAD, Conveyor, CAS, Rock, Spreader or Telebelt. Not all Singer trucks are the same, we proudly use CAS conveyor application system slinger truck. Made in Eugene, Oregon USA our CAS Slinger trucks are fully remote controlled and can be driven while operating the conveyor slinger system. These trucks place material long distances other equipment just couldn’t get.
+##### A Slinger Truck has a hopper and boom mounted on a truck chassis and is used to spread a variety of materials with a conveyor belt . Also known as a CAD, Conveyor, CAS, Rock Spreader or Telebelt. 
+
+##### Not all Singer trucks are the same, we proudly use CAS conveyor application system slinger truck. Made in Eugene, Oregon USA our CAS Slinger trucks are fully remote controlled and can be driven while operating the conveyor slinger system. These trucks place material up to  80 feet, going long distances other equipment just couldn’t get.
