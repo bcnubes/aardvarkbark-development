@@ -3,8 +3,8 @@ date = 2019-02-15T08:00:00Z
 draft = true
 keywords = ["blower"]
 name = ""
-thumbnail = "/imgs/products-medium-red-bark.jpg"
-title = "Medium Red Bark"
+thumbnail = "/imgs/Compost.jpg"
+title = "Compost"
 
 +++
-## Medium for the size, red for the color. Made from 100% virgin fir and hemlock tree bark native to the northwest. The bark is processed to be 5/8” minus in size.  Medium bark is the most popular for its wide range of landscaping applications and its price being the most economical.
+##### Made from 100% recycled yard waste. The recycled yard waste is ground up, mixed and piled in rows to cook in a process called composting.  After cooking/composting the material pieces are screened and processes to be 5/8” minus. This material is commonly used as a soil amendment or topdressing.
