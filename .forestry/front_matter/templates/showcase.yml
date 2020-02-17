@@ -45,5 +45,6 @@ fields:
   label: Show Case Card
   description: One of three cards in the homepage Showcase
 pages:
+- content/showcase/blowertruck.md
 - content/showcase/playchips.md
 - content/showcase/slinger truck.md
