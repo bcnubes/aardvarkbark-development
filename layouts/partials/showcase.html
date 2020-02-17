@@ -4,7 +4,7 @@
 {{ range first 3 .Pages }}
 		<div class="container-500 centered">
 		  <section class="card">
-			<a href="{{ .Params.link_to }}" class="image featured">
+			<a href="{{ .Params.Link }}" class="image featured">
 			    {{ $img := resources.Get .Params.Image }}
 			    {{ with $img }}
 			    	<img src="{{ (.Fill "500x375 q90 Center").RelPermalink }}" alt="{{ .Params.Title }}" />
@@ -13,8 +13,8 @@
 			<header>
 			  <h3>{{ .Params.Title }}</h3>
 			</header>
-			<p>{{ .Params.summary_text }}</p>
-			<a href="{{ .Params.link_to }}" class="button alt-color">Learn More</a>
+			<p>{{ .Params.Summary }}</p>
+			<a href="{{ .Params.Link }}" class="button alt-color">Learn More</a>
 		  </section>
 		</div>
 {{ end }}
