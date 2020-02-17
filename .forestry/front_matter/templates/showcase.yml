@@ -19,7 +19,7 @@ fields:
       maxSize: 250
     label: Image
     description: Will be centered and resized to 500x375
-  - name: link_to
+  - name: link
     type: select
     default: []
     config:
@@ -30,9 +30,9 @@ fields:
         section: 
         file: 
         path: 
-    label: Link To
+    label: Link
     description: Where the link takes the user
-  - name: summary_text
+  - name: summary
     type: textarea
     default: ''
     config:
@@ -40,7 +40,7 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
-    label: Summary Text
+    label: Summary
     description: SEO and human friendly summary of linked page
   label: Show Case Card
   description: One of three cards in the homepage Showcase
