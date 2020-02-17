@@ -1,0 +1,23 @@
+<div class="container-1500 centered">
+    <div class="flex one three-800" style="align-self:center;">
+{{ with .Site.GetPage "/showcase" }}
+{{ range first 3 .Pages }}
+		<div class="container-500 centered">
+		  <section class="card">
+			<a href="{{ .Params.linkaddress }}" class="image featured">
+			    {{ $img := resources.Get .Params.Image }}
+			    {{ with $img }}
+			    	<img src="{{ (.Fill "500x375 q90 Center").RelPermalink }}" alt="{{ .Params.Title }}" />
+			    {{ end }}
+			</a>
+			<header>
+			  <h3>{{ .Params.Title }}</h3>
+			</header>
+			<p>{{ .Params.summary_text }}</p>
+			<a href="{{ .Params.link_to }}" class="button alt-color">Learn More</a>
+		  </section>
+		</div>
+{{ end }}
+{{ end }}
+	</div>
+</div>	
