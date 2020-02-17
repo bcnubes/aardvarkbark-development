@@ -2,6 +2,10 @@
     <div class="flex one three-800" style="align-self:center;">
 {{ with .Site.GetPage "/showcase" }}
 {{ range first 3 .Pages }}
+	    1{{ .Params.title }}
+	    2{{ .Params.Title }}
+	    3{{ .title }}
+	    4{{ .Title }}
 		<div class="container-500 centered">
 		  <section class="card">
 			<a href="{{ .Params.link }}" class="image featured">
