@@ -7,7 +7,7 @@
 			<a href="{{ .Params.linkaddress }}" class="image featured">
 			    {{ $img := resources.Get .Params.Image }}
 			    {{ with $img }}
-			    	<img src="{{ (.Fill "500x375 q90 Center").RelPermalink }}" alt="{{ .Title }}" />
+			    	<img src="{{ .Params.Image }}" alt="{{ .Title }}" />
 			    {{ end }}
 			</a>
 			<header>
