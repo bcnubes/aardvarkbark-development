@@ -5,10 +5,9 @@
 		<div class="container-500 centered">
 		  <section class="card">
 			<a href="{{ .Params.Link }}" class="image featured">
-			    {{ $img := resources.Get .Params.Image }}
-			    {{ with $img }}
-			    	<img src="{{ (.Fill "500x375 q90 Center").RelPermalink }}" alt="{{ .Params.Title }}" />
-			    {{ end }}
+
+			    	<img src="{{ .Params.Image }}" alt="{{ .Params.Title }}" />
+
 			</a>
 			<header>
 			  <h3>{{ .Params.Title }}</h3>
