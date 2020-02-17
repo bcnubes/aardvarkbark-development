@@ -4,16 +4,16 @@
 {{ range first 3 .Pages }}
 		<div class="container-500 centered">
 		  <section class="card">
-			<a href="{{ .Params.Link }}" class="image featured">
+			<a href="{{ .Params.link }}" class="image featured">
 
-			    	<img src="{{ .Params.Image }}" alt="{{ .Params.Title }}" />
+			    	<img src="{{ .Params.image }}" alt="{{ .Params.title }}" />
 
 			</a>
 			<header>
-			  <h3>{{ .Params.Title }}</h3>
+			  <h3>{{ .Params.title }}</h3>
 			</header>
-			<p>{{ .Params.Summary }}</p>
-			<a href="{{ .Params.Link }}" class="button alt-color">Learn More</a>
+			<p>{{ .Params.summary }}</p>
+			<a href="{{ .Params.sink }}" class="button alt-color">Learn More</a>
 		  </section>
 		</div>
 {{ end }}
