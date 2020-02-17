@@ -44,3 +44,5 @@ fields:
     description: SEO and human friendly summary of linked page
   label: Show Case Card
   description: One of three cards in the homepage Showcase
+pages:
+- content/showcase/Slinger Truck Showcase Card.md
