@@ -1,4 +1,46 @@
 ---
 label: Showcase
 hide_body: true
-fields: []
+fields:
+- name: show_case_card
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+      max: '30'
+    label: Title
+    description: 30 characters or less
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+    description: Will be centered and resized to 500x375
+  - name: link_to
+    type: select
+    default: []
+    config:
+      required: true
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Link To
+    description: Where the link takes the user
+  - name: summary_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Summary Text
+    description: SEO and human friendly summary of linked page
+  label: Show Case Card
+  description: One of three cards in the homepage Showcase
