@@ -3,8 +3,8 @@ date = 2019-02-15T08:00:00Z
 draft = true
 keywords = ["blower"]
 name = ""
-thumbnail = "/imgs/medium red bark.jpg"
-title = "Medium Red Bark"
+thumbnail = "/imgs/red fine.jpg"
+title = "Fine Red Bark"
 
 +++
-##### Medium for the size, red for the color. Made from 100% virgin fir and hemlock tree bark native to the northwest. The bark is processed to be 5/8” minus in size.  Medium bark is the most popular for its wide range of landscaping applications and its price being the most economical.
+##### Fine Red Bark – Fine for the size, red for the color. Made from 100% virgin fir and hemlock tree bark native to the northwest. The bark is screened and processes to be 5/8” minus in size. Fine red bark when installed in landscaping applications has a smooth appearance, fresh bark smell and color. Along with the other benefits of fine bark the red is fresh so it tends to last longer as it is not aged for color.
