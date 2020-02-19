@@ -2,7 +2,21 @@
     <div class="flex one three-800" style="align-self:center;">
 	{{ with .Site.GetPage "/showcase" }}
 	{{ range first 3 .Pages }}
-	{{ .Params.title }}
+	
+	<div class="container-500 centered">
+	<section class="card">
+		<a href="{{ .Params.link }}" class="image featured">
+			<img src="{{ .Params.image }}" alt="{{ .Params.title }}" />
+		</a>
+		<header>
+			<h3>{{ .Params.title }}</h3>
+		</header>
+		<p>{{ .Params.summary }}</p>
+		<a href="{{ .Params.sink }}" class="button alt-color">Learn More</a>
+    	</section>
+	</div>    
+
+	    
 	{{ end }}
 	{{ end }}
 	</div>
