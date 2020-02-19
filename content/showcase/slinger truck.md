@@ -1,5 +1,4 @@
 +++
-[show_case_card]
 draft = false
 image = "/imgs/sligner-truck-500.jpg"
 link = "services/slinger-truck.md"
