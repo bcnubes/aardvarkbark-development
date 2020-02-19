@@ -42,6 +42,11 @@ fields:
         format: html-blocks
     label: Summary
     description: SEO and human friendly summary of linked page
+  - name: draft
+    type: boolean
+    label: draft
+    hidden: true
+    default: false
   label: Show Case Card
   description: One of three cards in the homepage Showcase
 pages:
