@@ -2,7 +2,7 @@
     <div class="flex one three-800" style="align-self:center;">
 	{{ with .Site.GetPage "/showcase" }}
 	{{ range first 3 .Pages }}
-		{{ .Params.title }}
+	{{ .Params.title }}
 	{{ end }}
 	{{ end }}
 	</div>
