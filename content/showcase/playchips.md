@@ -1,5 +1,4 @@
 +++
-[show_case_card]
 draft = false
 image = "/imgs/cedar-playground-playchip-500.jpg"
 link = "products/roof-top-soil-mix.md"
