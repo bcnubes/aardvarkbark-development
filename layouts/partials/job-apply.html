@@ -25,6 +25,7 @@
 <label for="email">Email</label><br>
 <input type="email" name="email" placeholder="email@address.com" required /><br>
 
+<label for="jobapply">Position Applying for</label>
 <select name="jobapply">
 {{ with .Site.GetPage "/careers" }}
   <option>{{ .Params.job_title }}</option>
@@ -41,6 +42,6 @@
 	<input name="curemp" id="empno" type='radio'>
 	<label name="curemp" for="empno" class="checkable">No</label>
 </fieldset>
-  
+  <br><br>
   <button type="submit" class="alt" disabled >Submit</button>
 </form>
