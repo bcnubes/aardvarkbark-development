@@ -5,12 +5,15 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/showcase
-  label: Showcase
+  path: content/products
+  label: Products
   create: all
   match: "**/*"
-  templates:
-  - showcase
+- type: directory
+  path: content/services
+  label: Services
+  create: all
+  match: "**/*"
 - type: directory
   path: content/info
   label: Info
@@ -19,15 +22,19 @@ sections:
   templates:
   - info
 - type: directory
-  path: content/services
-  label: Services
+  path: content/showcase
+  label: Showcase
   create: all
   match: "**/*"
+  templates:
+  - showcase
 - type: directory
-  path: content/products
-  label: Products
-  create: all
+  path: content/careers
+  label: Careers
+  create: documents
   match: "**/*"
+  templates:
+  - careers
 - type: directory
   path: content
   label: Pages
