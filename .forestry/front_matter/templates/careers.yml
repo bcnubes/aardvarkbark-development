@@ -1,4 +1,10 @@
 ---
 label: Careers
 hide_body: false
-fields: []
+fields:
+- name: job_title
+  type: text
+  config:
+    required: true
+  label: Job Title
+  description: The title of the job
