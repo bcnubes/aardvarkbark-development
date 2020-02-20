@@ -17,6 +17,9 @@ fields:
   name: keywords
   label: Keywords
   description: For products, enter "slinger" and/or "blower" to relate
+  default:
+  - slinger
+  - blower
 pages:
 - content/products/blown-dirt.md
 - content/products/fine-dark-bark-1.md
