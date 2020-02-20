@@ -8,3 +8,5 @@ fields:
     required: true
   label: Job Title
   description: The title of the job
+pages:
+- content/careers/office assistant.md
