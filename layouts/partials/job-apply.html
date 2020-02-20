@@ -1,16 +1,8 @@
 <style>
-	form{
-	padding: 50px;
-    border: 1px solid #a79d8d;
-    background: #dacfbc;
-    color: #231f1e;
-    max-width: 600px;
-    margin: auto;
-	}
-    border: 1px solid #ddd;}
-    form label {padding-top: 16px;}
-	form input {max-width: 500px; display: block;}
-	form button{}
+form{padding: 50px;border: 1px solid #a79d8d;background: #dacfbc;color: #231f1e;max-width: 600px;margin: auto;border: 1px solid #ddd;}
+form label {padding-top: 16px;}
+form input {max-width: 500px; display: block;}
+bigButton{font-size:1.3em;}
 </style>
 
 <form action="https://submit-form.com/################d">
@@ -33,7 +25,8 @@
 {{ end }}
 {{ end }}
 </select>
-
+<br>
+	
 <label for="startdate">When can you start?</label><br>
 <input type="date" name="startdate" /><br>
 
@@ -45,5 +38,5 @@
 	<label name="curemp" for="empno" class="checkable">No</label>
 </fieldset>
   <br><br>
-  <button type="submit" class="alt" disabled >Submit</button>
+  <button type="submit" class="alt-color bigButton" disabled >Submit</button>
 </form>
