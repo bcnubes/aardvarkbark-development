@@ -28,7 +28,9 @@
 <label for="jobapply">Position Applying for</label>
 <select name="jobapply">
 {{ with .Site.GetPage "/careers" }}
-  <option value="{{ lower .Title }}">{{ .Params.job_title }}</option>
+{{ range .Pages }}
+  <option value="{{ lower .Params.job_title }}">{{ .Params.job_title }}</option>
+{{ end }}
 {{ end }}
 </select>
 
