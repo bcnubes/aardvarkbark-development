@@ -1,0 +1,46 @@
+<style>
+	form{
+	padding: 50px;
+    border: 1px solid #a79d8d;
+    background: #dacfbc;
+    color: #231f1e;
+    max-width: 600px;
+    margin: auto;
+	}
+    border: 1px solid #ddd;}
+    form label {padding-top: 16px;}
+	form input {max-width: 500px; display: block;}
+	form button{}
+</style>
+
+<form action="https://submit-form.com/################d">
+
+<label for="name">Name</label>
+<input name="name" placeholder="Name" required /><br>
+
+<label for="email">Phone Number</label>
+<input type="tel" name="phone" required /><br>
+
+
+<label for="email">Email</label><br>
+<input type="email" name="email" placeholder="email@address.com" required /><br>
+
+<select name="jobapply">
+{{ with .Site.GetPage "/careers" }}
+  <option>{{ .Params.job_title }}</option>
+{{ end }}
+</select>
+
+<label for="startdate">When can you start?</label><br>
+<input type="date" name="startdate" /><br>
+
+<fieldset>
+	<label for="curemp">Currently employed?</label><br>
+	<input name="curemp" id="empyes" type='radio' >
+	<label name="curemp" for="empyes" class="checkable">Yes</label>
+	<input name="curemp" id="empno" type='radio'>
+	<label name="curemp" for="empno" class="checkable">No</label>
+</fieldset>
+  
+  <button type="submit" class="alt" disabled >Submit</button>
+</form>
