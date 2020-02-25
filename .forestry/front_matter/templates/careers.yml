@@ -9,6 +9,7 @@ fields:
   label: Job Title
   description: The title of the job
 pages:
+- content/careers/file-1.md
 - content/careers/file.md
 - content/careers/laborer.md
 - content/careers/office assistant.md
