@@ -1,9 +1,13 @@
 SectionPagesMenu = "main"
+assetDir = "static"
 baseURL = "/"
 languageCode = "en-us"
-title = "Aardvark Bark"
-assetDir = "static"
 summaryLength = 50
+title = "Aardvark Bark"
+[[menu.mainnav]]
+name = "Careers"
+url = "/careers/"
+weight = 7
 [[menu.mainnav]]
 identifier = "products"
 name = "Products"
