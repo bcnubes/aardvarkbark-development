@@ -2,7 +2,7 @@
 date = 2019-04-02T07:00:00Z
 keywords = ["blower"]
 name = ""
-thumbnail = "/imgs/products-fine-dark-bark.jpg"
+thumbnail = "/imgs/Light Weight Soil.jpg"
 title = "Roof Top Soil Mix"
 
 +++
