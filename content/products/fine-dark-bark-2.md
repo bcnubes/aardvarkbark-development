@@ -4,7 +4,7 @@ draft = true
 keywords = ["blower"]
 name = ""
 thumbnail = "/imgs/Dark Fine.jpg"
-title = "Dark Medium Bar"
+title = "Dark Medium Bark"
 
 +++
 ##### Dark Medium is Awesome. 
