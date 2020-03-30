@@ -6,7 +6,7 @@ keywords:
 - blower
 
 ---
-### These trucks allow more precise placement of products while keeping site disturbance and mess to an absolute minimum. Perfect for residential or commercial beds.
+##### **Blower trucks** allow more precise placement of products while keeping site disturbance and mess to an absolute minimum. Perfect for residential or commercial beds.
 
 ##### **Hose:** Our typical 60 yard blower truck holds 250 ft of 4” hose, standard at all times and will blow material at distances beyond without compromise. The hoses are in 25 ft sections that connect to each other as needed. The 25 ft sections allows our crews to maneuver the hoses throughout the job safely and efficiently.
 
