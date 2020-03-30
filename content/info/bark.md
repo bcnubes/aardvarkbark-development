@@ -5,7 +5,7 @@ thumbnail: https://res.cloudinary.com/aardvarkbark/image/upload/v1551198034/prod
 tags:
 - product
 name: Bark vs Mulch
-Title: Bark
+Title: Bark vs Mulch
 
 ---
 The two terms are often interchanged. Truly, all barks are mulch but not all mulches are bark.  For our product distinction, bark is just that, bark only. Wood chip mulch, trail mixture or hog fuel is non-composted and made from a variety of land clearing debris.
