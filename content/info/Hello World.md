@@ -6,4 +6,4 @@ tags = ["another"]
 thumbnail = "https://res.cloudinary.com/aardvarkbark/image/upload/v1551198023/icon-twitter.png"
 
 +++
-Social media page. Facebook, twitter, etc. 
+Social media page. Facebook, twitter, etc.
