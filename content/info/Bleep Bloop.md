@@ -1,7 +1,6 @@
 +++
 Title = "Minimum Load"
 date = 2019-02-14T08:00:00Z
-draft = true
 name = "minimum-load"
 tags = []
 thumbnail = ""
