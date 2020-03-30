@@ -8,6 +8,6 @@ name: Bark vs Mulch
 Title: Bark
 
 ---
-The two terms are often interchanged. Truly, all barks are mulch but not all mulches are bark.  For our product distinction, bark is just that, bark only. Our wood chip mulch is non-composted and made from a variety of land clearing debris. 
+The two terms are often interchanged. Truly, all barks are mulch but not all mulches are bark.  For our product distinction, bark is just that, bark only. Wood chip mulch, trail mixture or hog fuel is non-composted and made from a variety of land clearing debris.
 
-Our compost material can be used as a top dressing, however we recomend it being used as a soil amendment. 
+Our compost material can be used as a top dressing, however we recommend it being used as a soil amendment.
