@@ -7,3 +7,5 @@ title = "Pea Gravel "
 
 +++
 ##### **Pea gravel** is small rounded stones. Each stone is about the size of a pea. Ranging in size from one-eighth of an inch to three-eighths of an inch in diameter, Pea gravel is contains various colors such as white, buff, gray, and brown.
+
+![](/imgs/Pea Gravel 2.jpg)
