@@ -12,4 +12,4 @@ title = "Fiber PC - Play Chips"
 
 ##### ASTM Certified Engineered Wood Fiber 100 % cedar virgin wood. Our playground chips are considered one of the safest wood products available for playground areas. FiberPC when installed are accessible to people in wheelchairs (ADA compliant). The size of the pieces have been screened and processes to be 1 1/2” minus.
 
-#### ![](/imgs/FiberPC EWF.jpg)
+![](/imgs/FiberPC EWF.jpg)
