@@ -5,17 +5,17 @@
 <div class="container-1300 centered">
   <h1>{{ .Title }}</h1>
 
-<h2>Aardvark Advantage</h2>
+
 <div class="flex">
   <div class="full half-700 third-900">
-    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" style="max-width:100%;">
   </div>
   <div class="full half-700 two-third-900">
     {{ .Content }}
     <!-- <a href="#" class="button">Learn More</a> -->
   </div>
 </div>
-  <hr>
+<hr>
 
 
   <style>
@@ -26,7 +26,7 @@
 
 </style>
 
-<h2>Encyclopedia</h2>
+<h2 id="encyclopedia">Encyclopedia</h2>
 <small>categories:</small>
 {{ range $.Site.Taxonomies.tags.ByCount }}
 {{ if gt .Count 0 }}
