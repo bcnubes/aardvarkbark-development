@@ -144,7 +144,7 @@ td, th {
   box-sizing: inherit
 }
 html, body {
-  font-family:'GlacialIndifferenceRegular',Verdana,sans-sans-serif;
+  font-family:Tahoma, Geneva, sans-serif;
   box-sizing: border-box;
   height: 100%
 }
@@ -2637,7 +2637,7 @@ input.stack:focus+input, input.stack:focus+textarea, input.stack:focus+select, t
 }
 .card>p, .modal .overlay ~ *>p {
   margin: 0;
-  padding-right: 2.5em
+  /* padding-right: 2.5em */
 }
 .card .close, .modal .overlay ~ * .close {
   position: absolute;
@@ -2944,7 +2944,7 @@ footer small{color: #ffffff88}
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.15em;
   line-height: 2.5em;
   padding: 0 10px;
 }
