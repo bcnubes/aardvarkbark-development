@@ -28,6 +28,5 @@ fields:
   config:
     maxSize: '1'
 pages:
-- content/info/Hello World.md
 - content/info/colorful-trucks.md
 - content/info/dust-reduction.md

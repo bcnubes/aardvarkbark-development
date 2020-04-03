@@ -1,7 +1,7 @@
 ---
 title: Compost
 date: 2019-02-24T00:55:36.000+00:00
-thumbnail: https://res.cloudinary.com/aardvarkbark/image/upload/v1551198026/products-fine-dark-bark.jpg
+thumbnail: "/imgs/products-fine-dark-bark.jpg"
 tags:
 - product
 name: compost
@@ -12,4 +12,4 @@ Title: Compost
 
 ![](http://3.bp.blogspot.com/-sRbECNi1yxk/TxLLDGiF3pI/AAAAAAAAAPA/mJ1Aszldu5M/s1600/compost.jpg)
 
-##### The landscape industry is a predominant consumer of composted products, used to amend and mix in soils, gardens and spread in landscaping beds. Separately companies will add a variety of items to compost such as fish guts, food waste or cow and chicken manure. Compost typically, unless specified does not contain these items. By nature, compost contains live organics or foreign species. 
+##### The landscape industry is a predominant consumer of composted products, used to amend and mix in soils, gardens and spread in landscaping beds. Separately companies will add a variety of items to compost such as fish guts, food waste or cow and chicken manure. Compost typically, unless specified does not contain these items. By nature, compost contains live organics or foreign species.
