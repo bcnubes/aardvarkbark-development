@@ -28,7 +28,6 @@ fields:
   config:
     maxSize: '1'
 pages:
-- content/info/Bleep Bloop.md
 - content/info/Hello World.md
 - content/info/colorful-trucks.md
 - content/info/dust-reduction.md
