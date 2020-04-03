@@ -5,9 +5,18 @@
 <div class="container-1300 centered">
   <h1>{{ .Title }}</h1>
 
-  {{ partial "aardvark-advantage.html" . }}
+<h2>Aardvark Advantage</h2>
+<div class="flex">
+  <div class="full half-700 third-900">
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+  </div>
+  <div class="full half-700 two-third-900">
+    {{ .Content }}
+    <!-- <a href="#" class="button">Learn More</a> -->
+  </div>
+</div>
   <hr>
-  {{ .Content }}
+
 
   <style>
 
