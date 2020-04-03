@@ -491,7 +491,7 @@ tr:nth-child(even) {
 .container-1800 {max-width: 1800px}
 .container-1900 {max-width: 1900px}
 .container-2000 {max-width: 2000px}
-
+.container img{max-width:100%}
 /* sqaures */
 .square-half{height:0;width:50%;padding-bottom:50%;background-color:red;}
 .square-third{height:0;width:33.33333%;padding-bottom:33.33333%;background-color:red;}
