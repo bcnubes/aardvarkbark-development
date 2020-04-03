@@ -4,7 +4,6 @@ date: 2019-02-24T00:55:36.000+00:00
 thumbnail: "/imgs/sligner-truck-500.jpg"
 keywords:
 - slinger
-draft: true
 
 ---
 ##### A **Slinger Truck** has a hopper and boom mounted on a truck chassis and is used to spread a variety of materials with a conveyor belt . Also known as a CAD, Conveyor, CAS, Rock Spreader or Telebelt.
