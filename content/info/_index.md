@@ -8,4 +8,4 @@ thumbnail: "/imgs/colorful-trucks-800.jpg"
 ---
 ## Aardvark Advantage
 
-Here are all the reasons Aardvark rules! 
+Here are all the reasons [Aardvark]() rules!
