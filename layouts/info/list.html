@@ -41,6 +41,7 @@
   <div class="picture-item__inner">
     <figure class="" >
       <a href="{{ .RelPermalink }}">
+      {{ if .Params.thumbnail }}
       <div class="aspect aspect--16x9">
         <div class="aspect__inner">
 	    {{ $img := resources.Get .Params.thumbnail }}
@@ -49,6 +50,7 @@
 	    {{ end }}
         </div>
       </div>
+     {{ end }}
       <figcaption>{{ .Title }}</figcaption>
       </a>
     </figure>
