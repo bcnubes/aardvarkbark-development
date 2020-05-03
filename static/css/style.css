@@ -2904,6 +2904,7 @@ footer {
   line-height: 20px;
   border-top: 6px solid #FF312E;
 }
+footer a {color: #ffffff;}
 footer small{color: #ffffff88}
 .card-contact{padding:.5em; border: 1px solid #cccccc44;margin-bottom: .5em;}
 .menu-expanded-wrap{
