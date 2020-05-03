@@ -35,36 +35,32 @@
       <section class="menu-expanded">
         <span>Products</span>
         <ul>
-          <li>Bark</li>
-          <li>Mulch</li>
-          <li>Play Chips</li>
-          <li>Compost</li>
+			{{ range where .Pages.ByTitle "Section" "products" }}
+				{{ .Render "li" }}
+			{{ end }}
         </ul>
       </section>
 
       <section class="menu-expanded">
-      <span>Services</span>
+      <span>Info</span>
         <ul>
-          <li>Blower truck</li>
-          <li>Slinger Truck</li>
-          <li>Play Chips</li>
-          <li>Specialty</li>
+			{{ range where .Pages.ByTitle "Section" "info" }}
+				{{ .Render "li" }}
+			{{ end }}
         </ul>
       </section>
 
         <section class="menu-expanded">
-        <span>Info</span>
+        <span>Services</span>
         <ul>
-          <li>Aardvark Advantage</li>
-          <li>Encyclopedia</li>
-          <li>Calculator</li>
-          <li>Maps</li>
+			{{ range where .Pages.ByTitle "Section" "services" }}
+				{{ .Render "li" }}
+			{{ end }}
         </ul>
         </section>
 
       </div>
     </div>
-
 
 
   </div>
