@@ -36,7 +36,7 @@
       <section class="menu-expanded">
         <span>Products</span>
         <ul>
-			{{ range where .Pages.ByTitle "Section" "products" }}
+			{{ range where .Site.Pages.ByTitle "Section" "products" }}
 				{{ .Render "li" }}
 			{{ end }}
         </ul>
@@ -45,7 +45,7 @@
       <section class="menu-expanded">
       <span>Info</span>
         <ul>
-			{{ range where .Pages.ByTitle "Section" "info" }}
+			{{ range where .Site.Pages.ByTitle "Section" "info" }}
 				{{ .Render "li" }}
 			{{ end }}
         </ul>
@@ -54,7 +54,7 @@
         <section class="menu-expanded">
         <span>Services</span>
         <ul>
-			{{ range where .Pages.ByTitle "Section" "services" }}
+			{{ range where .Site.Pages.ByTitle "Section" "services" }}
 				{{ .Render "li" }}
 			{{ end }}
         </ul>
