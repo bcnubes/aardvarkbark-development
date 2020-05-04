@@ -4,6 +4,10 @@ baseURL = "/"
 languageCode = "en-us"
 summaryLength = 50
 title = "Aardvark Bark"
+[sitemap]
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
 [[menu.mainnav]]
 name = "Careers"
 url = "/careers/"
