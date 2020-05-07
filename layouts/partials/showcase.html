@@ -5,14 +5,14 @@
 	
 	<div class="container-500 centered">
 	<section class="card">
-		<a href="{{ .Params.link }}" class="image featured">
+		<a href="{{ {{ ref . .Params.link }}" class="image featured">
 			<img src="{{ .Params.image }}" alt="{{ .Params.title }}" />
 		</a>
 		<header>
 			<h3>{{ .Params.title }}</h3>
 		</header>
 		<p>{{ .Params.summary }}</p>
-		<a href="{{ .Params.link }}" class="button alt-color">Learn More</a>
+		<a href="{{ ref . .Params.link }}" class="button alt-color">Learn More</a>
     	</section>
 	</div>    
 
