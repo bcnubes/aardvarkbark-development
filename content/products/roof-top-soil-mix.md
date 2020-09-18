@@ -2,7 +2,7 @@
 date = 2019-04-02T07:00:00Z
 keywords = ["blower"]
 name = ""
-thumbnail = "/imgs/FiberPC EWF.jpg"
+thumbnail = "/imgs/fiberpc-ewf-resized.jpg"
 title = "Fiber PC - Play Chips"
 
 +++
