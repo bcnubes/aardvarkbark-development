@@ -2,7 +2,7 @@
 date = 2019-02-15T08:00:00Z
 keywords = ["blower"]
 name = ""
-thumbnail = "/imgs/5050 mix.jpg"
+thumbnail = "/imgs/light-weight-soil-resized.jpg"
 title = "70/30 Soil Mix"
 
 +++
