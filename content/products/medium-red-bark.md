@@ -2,7 +2,7 @@
 date = 2019-02-15T08:00:00Z
 keywords = ["blower"]
 name = ""
-thumbnail = "/imgs/medium red bark.jpg"
+thumbnail = "/imgs/medium-red-bark-resized.jpg"
 title = "Medium Red Bark"
 
 +++
