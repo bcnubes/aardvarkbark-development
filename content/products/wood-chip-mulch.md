@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 keywords = ["slinger", "blower"]
 thumbnail = "/imgs/Wood Chip Mulch-1.jpg"
 title = "Wood Chip Mulch"
