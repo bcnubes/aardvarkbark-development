@@ -15,4 +15,4 @@ Our bark is 100% organic bark and contains no [Chemicals or dyes. ]()
 
 #### Check out our Bark Tour here!
 
-{{< vimeo-half 475592736 }}
+{{< vimeo-half 475592736 >}}
