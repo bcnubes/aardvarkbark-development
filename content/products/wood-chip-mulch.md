@@ -1,7 +1,7 @@
 +++
 date = ""
 keywords = ["slinger", "blower"]
-thumbnail = "/imgs/wood-chip-mulch-resized.jpg"
+thumbnail = "/imgs/wood-chip-mulch-resized-oos.jpg"
 title = "Wood Chip Mulch"
 
 +++
