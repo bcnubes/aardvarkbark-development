@@ -8,9 +8,11 @@ title = "Pea Gravel "
 +++
 **Pea gravel** is small rounded stones. Each stone is about the size of a pea, which is were it gets its name. Ranging in size from one-eighth of an inch to three-eighths of an inch in diameter, Pea gravel contains various colors such as white, buff, gray, and brown. Pea gravel is a _specialty order product not regularly stocked in our yard_ and is ordered on a per project basis.
 
-**Concrete base Layer** 
+**Concrete base Layer**
 
-When a gravel base is applied, runoff washes through the gravel base keeping your slab well supported and crack free. For hard to reach areas many contractors use pea gravel as a base for poring concrete. 
+The dirt beneath your concrete slab is constantly moving. The base prevents the movement of the dirt from cracking the concrete slab by providing a layer that absorbs the differential movement often found in existing soil. When a gravel base is applied, runoff washes through the gravel base keeping your slab well supported and crack free. For hard to reach areas many contractors use pea gravel as a base for poring concrete.
+
+![](/imgs/pea-gravel-base-resized.jpg)
 
 **Septic Tank Decommissioning**
 
