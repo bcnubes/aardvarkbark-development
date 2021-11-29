@@ -1,7 +1,7 @@
 +++
-image = "/imgs/sligner-truck-500.jpg"
-link = "services/slinger-truck.md"
-summary = "These trucks place material long distances other equipment just can’t reach. Great for large open areas like roadways, water retention ponds or steep hillsides. "
-title = "Slinger Truck"
+image = "/imgs/pea-gravel-base-resized.jpg"
+link = "services/blower-truck.md"
+summary = "Several of our blower trucks are equipped with high capacity blower motors which provide the capability of blowing Pea Gravel."
+title = "Pea Gravel"
 
 +++
