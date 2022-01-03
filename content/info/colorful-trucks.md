@@ -6,4 +6,4 @@ tags = ["equipment"]
 thumbnail = "/imgs/colorful-trucks.jpg"
 
 +++
-We have eight 60 yard blower Trucks, one 20 yard blower truck, one 20 yard rock/soil blower and one Slinger Truck.
+We have eight 60 yard blower Trucks, two 40/20 yard blower/rock trucks.
