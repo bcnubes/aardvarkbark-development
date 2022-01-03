@@ -1,7 +1,7 @@
 +++
 Title = "Blower Trucks"
 date = 2019-02-26T08:00:00Z
-name = "colorful-trucks"
+name = "trucks"
 tags = ["equipment"]
 thumbnail = "/imgs/colorful-trucks.jpg"
 
