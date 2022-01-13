@@ -1,4 +1,5 @@
 ---
-title: "Map"
-layout: "map"
+title: How to Order
+layout: ''
+
 ---
