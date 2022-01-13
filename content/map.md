@@ -1,6 +1,11 @@
 ---
 title: How to Order
 layout: ''
+menu:
+  mainnav:
+    identifier: map
+    name: Ordering
+    weight: 6
 
 ---
 An order can be placed by phone or by email. 

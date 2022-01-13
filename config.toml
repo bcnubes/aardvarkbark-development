@@ -4,10 +4,6 @@ baseURL = "/"
 languageCode = "en-us"
 summaryLength = 50
 title = "Aardvark Bark"
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
 [[menu.mainnav]]
 name = "Careers"
 url = "/careers/"
@@ -17,11 +13,6 @@ identifier = "products"
 name = "Products"
 url = "/products/"
 weight = 2
-[[menu.mainnav]]
-identifier = "map"
-name = "Map"
-url = "/map/"
-weight = 6
 [[menu.mainnav]]
 identifier = "calculator"
 name = "Calculator"
@@ -42,3 +33,7 @@ identifier = "home"
 name = "Home"
 url = "/"
 weight = 1
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
