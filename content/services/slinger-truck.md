@@ -1,7 +1,7 @@
 ---
 title: 'Septic Decommissioning & Back Fill  '
 date: 2019-02-24T00:55:36.000+00:00
-thumbnail: ''
+thumbnail: "/imgs/pea-gravel-2-resized.jpg"
 keywords: []
 
 ---
