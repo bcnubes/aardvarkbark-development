@@ -1,12 +1,11 @@
 ---
 title: More Info
 name: more-info
-Title: More Info
+Title: 'Frequently Asked Questions '
 date: 2020-04-03T07:00:00.000+00:00
 thumbnail: "/imgs/colorful-trucks-800.jpg"
 
 ---
-## Frequently Asked Questions
 
 * **Q:** Can you blow bark in the rain?
 
