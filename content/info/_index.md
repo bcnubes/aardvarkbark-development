@@ -25,4 +25,4 @@ thumbnail: "/imgs/colorful-trucks-800.jpg"
   **A:** Our standard truck is 40' long, 10' wide and 14' tall. Even though you may have had other construction vehicles or dump truck to your location we will need to confirm accessibility prior to performing the work. We typically are able to get enough information from google maps, however, we occasionally require pictures of the jobsite be sent as text messages to our email. 
 * **Q:** What form of payment do you accept?
 
-  **A:** For all new and residential customers we can accept a check at the time of service or a electronic payment (subject to a 3% fee). For commercial accounts, we require a minimum of one billing cycle and a completed credit application.  
+  **A:** For all new and residential customers we can accept a check at the time of service or a electronic payment (subject to a 3% fee). For billed commercial accounts, we require a minimum of one prior job payed in full and a completed credit application.  
