@@ -20,7 +20,7 @@ url = "/calculator/"
 weight = 5
 [[menu.mainnav]]
 identifier = "info"
-name = "More Info"
+name = "FAQ"
 url = "/info/"
 weight = 4
 [[menu.mainnav]]
