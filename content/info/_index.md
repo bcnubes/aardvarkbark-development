@@ -17,6 +17,13 @@ thumbnail: "/imgs/colorful-trucks-800.jpg"
 * **Q:** Can you blow straw?
 
   **A:** Our blower trucks are not able to blow straw. It is too light to properly feed through the system.
+
+
+* **Q:** Can you blow sand?
+
+  **A:** No. Sand is highly abrasive and causes a significant amount of wear to the truck. 
+
+
 * **Q:** How far can your truck reach?
 
   **A:** Our trucks come to each job with 280 feet of hose. Under special circumstances we can reach as far as 300 feet.
