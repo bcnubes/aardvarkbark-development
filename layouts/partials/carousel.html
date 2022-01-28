@@ -12,11 +12,13 @@
     <figure class="carousel-item">
       <label class="item-prev btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-left"></i></label>
       <label class="item-next btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-right"></i></label>
-      <img class="img-responsive rounded" src="imgs\Bark-Blowing-Residential_w800_16x9.jpg" alt="Bark Blowing Residential">
+      <img class="img-responsive rounded" src="{{ . }}" alt="Bark Blowing Residential">
     </figure>
     {{end}}
   </div>
   <!-- carousel navigation -->
+  {{ $imgs := (range .Site.Data.carousel.carousel_gallery) }}
+  {{ $imgsCount := len $imgs }}
   <div class="carousel-nav">
     <label class="nav-item text-hide c-hand" for="slide-1"></label>
     <label class="nav-item text-hide c-hand" for="slide-2"></label>
@@ -24,3 +26,4 @@
     <label class="nav-item text-hide c-hand" for="slide-4"></label>
   </div>
 </div>
+<p>{{ $imgsCount }}</p>
