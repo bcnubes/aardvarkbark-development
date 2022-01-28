@@ -1,4 +1,8 @@
 ---
 label: Carousel
 hide_body: true
-fields: []
+fields:
+- name: carousel_gallery
+  type: image_gallery
+  config: {}
+  label: Carousel Gallery
