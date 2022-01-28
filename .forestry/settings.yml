@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: data/carousel.json
-  label: Carousel
 - type: directory
   path: content/products
   label: Products
@@ -31,6 +28,9 @@ sections:
   match: "**/*"
   templates:
   - showcase
+- type: document
+  path: data/carousel.json
+  label: Carousel
 - type: directory
   path: content/careers
   label: Careers
