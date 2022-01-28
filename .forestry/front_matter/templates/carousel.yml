@@ -6,5 +6,6 @@ fields:
   type: image_gallery
   config: {}
   label: Carousel Gallery
+  description: Choose images that are 800x450
 pages:
 - data/carousel.json
