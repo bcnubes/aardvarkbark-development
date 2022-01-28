@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/carousel.json
   label: Carousel
-  match: "**/*"
 - type: directory
   path: content/products
   label: Products
