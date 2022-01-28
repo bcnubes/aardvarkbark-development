@@ -17,13 +17,13 @@
     {{end}}
   </div>
   <!-- carousel navigation -->
-  {{ $imgs := (range .Site.Data.carousel.carousel_gallery) }}
-  {{ $imgsCount := len $imgs }}
+
   <div class="carousel-nav">
-    <label class="nav-item text-hide c-hand" for="slide-1"></label>
-    <label class="nav-item text-hide c-hand" for="slide-2"></label>
-    <label class="nav-item text-hide c-hand" for="slide-3"></label>
-    <label class="nav-item text-hide c-hand" for="slide-4"></label>
+    {{ $i := int 1 }}
+    {{ range .Site.Data.carousel.carousel_gallery }}
+    <label class="nav-item text-hide c-hand" for="slide-{{$i}}"></label>
+    {{ $i = add $i 1 }}
+    {{end}}
   </div>
 </div>
-<p>{{ $imgsCount }}</p>
+
