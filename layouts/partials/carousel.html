@@ -8,26 +8,13 @@
   <!-- carousel container -->
   <div class="carousel-container">
     <!-- carousel item -->
+    {{ range .Site.Data.carousel.carousel_gallery }}
     <figure class="carousel-item">
       <label class="item-prev btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-left"></i></label>
       <label class="item-next btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-right"></i></label>
       <img class="img-responsive rounded" src="imgs\Bark-Blowing-Residential_w800_16x9.jpg" alt="Bark Blowing Residential">
     </figure>
-    <figure class="carousel-item">
-      <label class="item-prev btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-left"></i></label>
-      <label class="item-next btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-right"></i></label>
-      <img class="img-responsive rounded" src="imgs/Commercial-Apartment-Bark-Blowing_w800_16x9.jpg" alt="Commercial Property Bark Blowing">
-    </figure>
-    <figure class="carousel-item">
-      <label class="item-prev btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-left"></i></label>
-      <label class="item-next btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-right"></i></label>
-      <img class="img-responsive rounded" src="imgs/Governement-Roadside-DOT-Large-Job_w800_16x9.jpg" alt="Large Roadside Bark Blowing Job">
-    </figure>
-    <figure class="carousel-item">
-      <label class="item-prev btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-left"></i></label>
-      <label class="item-next btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-right"></i></label>
-      <img class="img-responsive rounded" src="imgs/Mulch-Rooftop-Garden_w800_16x9.jpg" alt="Blowing Mulch in a Rooftop Garden">
-    </figure>
+    {{end}}
   </div>
   <!-- carousel navigation -->
   <div class="carousel-nav">
