@@ -6,3 +6,5 @@ fields:
   type: image_gallery
   config: {}
   label: Carousel Gallery
+pages:
+- data/carousel.json
