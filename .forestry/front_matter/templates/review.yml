@@ -52,8 +52,16 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-    max: 400
+    max: 
   label: Review Text
   description: Copy and Paste the text (or partial) of the review
+- name: review_link
+  type: text
+  config:
+    required: false
+  label: Review Link
+  description: Copy paste short link from Google Maps, e.g. <a href="https://goo.gl/maps/kczSMGkSakMdacNv9"
+    title="https://goo.gl/maps/kczSMGkSakMdacNv9" target="_blank">https://goo.gl/maps/kczSMGkSakMdacNv9</a>
+  default: https://www.google.com/search?hl=en&q=aardvark bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,,
 pages:
 - content/reviews/google-jessica.md
