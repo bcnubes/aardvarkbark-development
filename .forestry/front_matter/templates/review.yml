@@ -2,22 +2,6 @@
 label: Review
 hide_body: true
 fields:
-- name: review_source
-  type: select
-  default: Google
-  config:
-    required: true
-    options:
-    - Google
-    - Yelp
-    - Facebook
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Review Source
-  description: Source of the review, e.g. Google
 - name: reviewer_name
   type: text
   config:
@@ -35,7 +19,7 @@ fields:
     max: 5
     step: 1
     required: true
-- name: review_date
+- name: date
   type: datetime
   label: Review Date
   description: Date of the review, used to calculate "8 months ago"
@@ -58,10 +42,10 @@ fields:
 - name: review_link
   type: text
   config:
-    required: false
+    required: true
   label: Review Link
-  description: 'Optional: Copy paste short link from Google Maps, e.g. <a href="https://goo.gl/maps/kczSMGkSakMdacNv9"
-    title="https://goo.gl/maps/kczSMGkSakMdacNv9" target="_blank">https://goo.gl/maps/kczSMGkSakMdacNv9</a>'
+  description: Copy paste short link from Google Maps, e.g. <a href="https://goo.gl/maps/kczSMGkSakMdacNv9"
+    title="https://goo.gl/maps/kczSMGkSakMdacNv9" target="_blank">https://goo.gl/maps/kczSMGkSakMdacNv9</a>
   default: https://www.google.com/search?hl=en&q=aardvark bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,,
 pages:
 - content/reviews/google-connor.md
