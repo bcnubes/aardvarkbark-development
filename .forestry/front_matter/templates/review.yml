@@ -63,6 +63,19 @@ fields:
   description: Copy paste short link from Google Maps, e.g. <a href="https://goo.gl/maps/kczSMGkSakMdacNv9"
     title="https://goo.gl/maps/kczSMGkSakMdacNv9" target="_blank">https://goo.gl/maps/kczSMGkSakMdacNv9</a>
   default: https://www.google.com/search?hl=en&q=aardvark bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,,
+- name: repeat_test
+  type: field_group_list
+  fields:
+  - name: bloop
+    type: text
+    config:
+      required: false
+    label: bloop
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: repeat test
 pages:
 - content/reviews/google-jessica.md
 - content/reviews/google-sara.md
