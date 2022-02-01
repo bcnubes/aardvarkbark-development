@@ -49,5 +49,3 @@ fields:
   default: https://www.google.com/search?hl=en&q=aardvark bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,,
 pages:
 - content/reviews/google-connor.md
-- content/reviews/google-jessica.md
-- content/reviews/google-sara.md
