@@ -22,16 +22,6 @@ sections:
   templates:
   - info
 - type: directory
-  path: content/showcase
-  label: Showcase
-  create: all
-  match: "**/*"
-  templates:
-  - showcase
-- type: document
-  path: data/carousel.json
-  label: Carousel
-- type: directory
   path: content/careers
   label: Careers
   create: documents
@@ -43,6 +33,29 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Home Page
+- type: directory
+  path: content/showcase
+  label: Showcase
+  create: all
+  match: "**/*"
+  templates:
+  - showcase
+- type: document
+  path: data/carousel.json
+  label: Carousel
+- type: document
+  path: data/home-video.json
+  label: Video
+  match: "**/*"
+- type: directory
+  path: content/reviews
+  label: Reviews
+  create: documents
+  match: "**/*"
+  templates:
+  - review
 upload_dir: static/imgs
 public_path: "/imgs"
 front_matter_path: ''
