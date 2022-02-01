@@ -75,6 +75,7 @@ fields:
   hidden: true
   default: now
 pages:
+- content/reviews/google-connor-2.md.md
 - content/reviews/google-connor.md
 - content/reviews/google-jessica.md
 - content/reviews/google-sara.md
