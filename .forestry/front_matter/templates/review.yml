@@ -45,8 +45,13 @@ fields:
     time_format: 
     display_utc: false
 - name: review_text
-  type: text
+  type: textarea
+  default: ''
   config:
     required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+    max: 400
   label: Review Text
   description: Copy and Paste the text (or partial) of the review
