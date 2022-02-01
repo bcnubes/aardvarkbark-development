@@ -47,5 +47,3 @@ fields:
   description: Copy paste short link from Google Maps, e.g. <a href="https://goo.gl/maps/kczSMGkSakMdacNv9"
     title="https://goo.gl/maps/kczSMGkSakMdacNv9" target="_blank">https://goo.gl/maps/kczSMGkSakMdacNv9</a>
   default: https://www.google.com/search?hl=en&q=aardvark bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,,
-pages:
-- content/reviews/google-connor.md
