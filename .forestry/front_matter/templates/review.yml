@@ -63,19 +63,7 @@ fields:
   description: 'Optional: Copy paste short link from Google Maps, e.g. <a href="https://goo.gl/maps/kczSMGkSakMdacNv9"
     title="https://goo.gl/maps/kczSMGkSakMdacNv9" target="_blank">https://goo.gl/maps/kczSMGkSakMdacNv9</a>'
   default: https://www.google.com/search?hl=en&q=aardvark bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,,
-- name: publish_date
-  type: datetime
-  label: Publish Date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-  hidden: true
-  default: now
 pages:
-- content/reviews/google-connor-2.md.md
 - content/reviews/google-connor.md
 - content/reviews/google-jessica.md
 - content/reviews/google-sara.md
