@@ -14,44 +14,23 @@
 <br><br>
 
 <div class="container-1500 centered flex full three-900">
-    <div style="align-self:center;">
-
-      <div class="review-wrap">
-        <a href="https://www.facebook.com/jonaflatooni/posts/10159830556470125:0" target="_blank"><span class=reviewer>John</span></a>
-        <span class="review facebookblue">	&starf;&starf;&starf;&starf;&starf;</span><br>
-        <span class="reviewdate">Jan 8, 2018</span>
-        <a target="_blank" href="https://www.facebook.com/Aardvark-Bark-Blowing-157837840914993/"><img src="/imgs/IC-facebook.png" class="sociallink"></a>
-        <p class="reviewtext">
-        Fantastic company that has friendly staff and excellent customer service. We have used Aardvark Bark Blowers for years and have found them to be extremely efficient and fair in their pricing. We really enjoy using them on complicated landscape installations when moving in large quantities of bark or other soil materials can be logistically difficult.
-        </p>
-      </div>
-
-    </div>
-    <div  style="align-self:center;">
-
-      <div class="review-wrap">
-        <a href="https://www.yelp.com/user_details?userid=i-gORf9COvHUB05_rU8ugg" target="_blank"><span class=reviewer>Regina</span></a>
-        <span class="review yelpred">	&starf;&starf;&starf;&starf;&starf;</span><br>
-        <span class="reviewdate">Oct 13, 2015</span>
-        <a target="_blank" href="https://www.yelp.com/biz/aardvark-bark-blowing-and-landscape-services-tacoma"><img src="/imgs/IC-yelp.png" class="sociallink"></a>
-        <p class="reviewtext">
-        This is an amazing company! Super professional from the office staff to the staff delivering the bark to the daycare. Polite, courteous and very efficient. The daycare playground looks amazing. They quality of the playchips is great and we will use them again! Thank you, Aardvark!
-        </p>
-      </div>
-
-    </div>
-    <div style="align-self:center;">
-
-      <div class="review-wrap">
-        <a target="_blank" href="https://goo.gl/maps/GGSWtEfVyuF2"><span class=reviewer>Jessica</span></a>
-        <span class="review googleorange">	&starf;&starf;&starf;&starf;&starf;</span><br>
-        <span class="reviewdate">Apr 3, 2019</span>
-        <a target="_blank" href="https://www.google.com/search?hl=en&q=aardvark%20bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,,"><img src="/imgs/IC-google.png" class="sociallink"></a>
-        <p class="reviewtext">
-        I found out about Aardvark through the company I work for. I just had my first install done in my front and backyard. The staff and crew are friendly. John was very helpful and the boys did a fantastic job overall. Worth every penny! I will be sure to recommend their services to others and definitely be using them again in the future. Thanks for all your help guys!! :)
-        </p>
-      </div>
-
-    </div>
+{{ range last 3 ((where .Site.RegularPages "Section" "reviews").ByDate ) }}
+<div style="align-self:center">
+	<div class="review-wrap">
+		<a href="https://www.google.com/search?hl=en&amp;q=aardvark%20bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,," target="_blank" style="">
+			<span class="reviewer">{{ .Params.reviewer_name }}</span>
+		</a>
+		<span class="review googleorange"> ★★★★★</span>
+		<br>
+		<span class="reviewdate">{{ .Date }}</span>
+		<a target="_blank" href=" target="_blank" href="https://www.google.com/search?hl=en&amp;q=aardvark%20bark#lrd=0x5490fdeeefc24043:0x7ef3491845589b4a,1,,," style="outline-width: 0px !important; user-select: auto !important;">
+			<img src="/imgs/IC-google.png" class="sociallink">
+		 </a>
+		<p class="reviewtext">
+		{{ .Params.review_text | safeHTML | truncate 400 }}
+		</p>
+	</div>
+</div>
+{{end}} 
 
 </div>
