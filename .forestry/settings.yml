@@ -48,7 +48,6 @@ sections:
 - type: document
   path: data/home-video.json
   label: Video
-  match: "**/*"
 - type: directory
   path: content/reviews
   label: Reviews
