@@ -29,5 +29,6 @@ fields:
   label: Review Text
   description: Copy and Paste the text (or partial) of the review
 pages:
+- content/reviews/connor.md
 - content/reviews/sara.md
 - content/reviews/somer.md
