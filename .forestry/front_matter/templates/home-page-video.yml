@@ -24,5 +24,3 @@ fields:
   label: Video Id
   description: 'The last bit, <br>Example Vimeo: <strong>146022717</strong><br>Example
     Youtube: <strong>8ltrDe3Kv8k</strong>'
-pages:
-- data/home-video.json

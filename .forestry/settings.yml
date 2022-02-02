@@ -46,7 +46,7 @@ sections:
   path: data/carousel.json
   label: Carousel
 - type: document
-  path: data/home-video.json
+  path: data/homevideo.json
   label: Video
 - type: directory
   path: content/reviews
