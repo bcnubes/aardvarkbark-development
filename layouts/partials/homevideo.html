@@ -1,0 +1,5 @@
+      {{ if eq .Site.Data.homevideo.source "Vimeo" }}
+      {{< vimeo .Site.Data.homevideo.video_id >}}
+      {{else}}
+      {{< youtube .Site.Data.homevideo.video_id >}}
+      {{end}}
