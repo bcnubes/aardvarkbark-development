@@ -1,4 +1,26 @@
 ---
 label: Home Page Video
 hide_body: true
-fields: []
+fields:
+- name: source
+  type: select
+  default: Vimeo
+  config:
+    required: true
+    options:
+    - Vimeo
+    - Youtube
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Source
+- name: video_id
+  type: text
+  config:
+    required: true
+    max: 15
+  label: Video Id
+  description: 'The last bit, <br>Example Vimeo: <strong>146022717</strong><br>Example
+    Youtube: <strong>8ltrDe3Kv8k</strong>'
